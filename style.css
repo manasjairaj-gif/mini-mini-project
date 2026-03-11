@@ -1,0 +1,122 @@
+*{
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        body{
+            background-color: #8ecae6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            
+        }
+        #container{
+            display: flex;
+            background-color: #219ebc;
+            border: solid 3px black;
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+        h1{
+            margin: 0;
+            text-align: center;
+        }
+        hr{
+            width: 100%;
+            height: 1px;
+            background-color: black;
+            border: none;
+        }
+        #p1, #p2{
+            font-size: 1.5em;
+            margin: 0;
+            text-align: center;
+        }
+        #inp{
+           width: 100%;
+           padding: 10px;
+           font-size: 1em;
+           margin-top:10px ;
+        }
+        #buttons{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        button {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 1em;
+            color: white;
+        }
+        #sub{
+           
+            background-color: #8ac926;
+        }
+        #sub:hover{
+            background-color: #5e9506;
+            cursor: pointer;
+        }
+        #sub:active{
+            background-color: #a6e541;
+        }
+        #res{
+            background-color: #fb8500;
+        }
+        #res:hover{
+            background-color: #854803;
+            cursor: pointer;
+        }
+        #res:active{
+            background-color: #f7a649;
+        }
+        #p3{
+            font-size: 1em;
+            margin-top:10px;
+        }
+        #attempts{
+            font-size: 1.4em;
+        }
+        #para{
+            font-size: 1.3em;
+            margin-top: 10px;
+            text-align: center;
+
+        }
+        @media (max-width: 500px){
+            #container{
+                padding: 1rem;
+
+            }
+            #buttons{
+                flex-direction: column;
+                gap: 10px;
+            }
+            button{
+                width: 10px;
+            }
+        .low{
+            color:#c8b206;
+        }
+        .high{
+            color: #70140a;
+        }
+        .correct{
+            color: #036b2e;
+        }
+
+        }
